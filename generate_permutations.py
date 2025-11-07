@@ -18,7 +18,7 @@ def generate_permutations(s):
     
     return result
 
-# 1 Пример использования
+# Пример использования
 input_string = "abc"
 permutations = generate_permutations(input_string)
 print(f"Все перестановки строки '{input_string}':")
@@ -32,18 +32,4 @@ for p in permutations:
 # bca
 # cab
 # cba
-
-# 2 Пример использования
-input_string = "123"
-permutations = generate_permutations(input_string)
-print(f"Все перестановки строки '{input_string}':")
-for p in permutations:
-    print(p)
-# Вывод:
-# Все перестановки строки '123':
-# 123
-# 132
-# 213
-# 231
-# 312
 # 321
