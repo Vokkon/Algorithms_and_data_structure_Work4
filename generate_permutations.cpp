@@ -32,7 +32,7 @@ vector<string> generatePermutations(const string& s) {
     return result;
 }
 
-// 1 в
+// Пример использования
 int main() {
     string input = "123";
     vector<string> permutations = generatePermutations(input);
