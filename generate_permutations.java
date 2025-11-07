@@ -29,7 +29,7 @@ public class StringPermutations {
         
         return result;
     }
-    
+    // Пример использования
     public static void main(String[] args) {
         String input = "АБВ";
         List<String> permutations = generatePermutations(input);
@@ -37,6 +37,7 @@ public class StringPermutations {
         System.out.println("Все перестановки строки '" + input + "':");
         for (String p : permutations) {
             System.out.println(p);
+          // Вывод:
           // Все перестановки строки 'АБВ':
           // АБВ
           // АВБ
